@@ -50,7 +50,7 @@ const WorldMap: React.FC = () => {
       <div className="relative w-full max-w-5xl aspect-video rounded-[3rem] overflow-hidden bg-gradient-to-br from-gray-900 to-black border border-gray-800 shadow-2xl">
         {/* Placeholder for the curved map view */}
         <Image
-          src="/placeholder.svg?height=600&width=1000"
+          src="/assets/images/multiverse-bg.png"
           alt="Petoverse World Map"
           layout="fill"
           objectFit="cover"

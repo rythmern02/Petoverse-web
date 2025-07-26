@@ -30,19 +30,19 @@ const SiteFooter: React.FC = () => {
         </motion.div>
 
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8 text-lg font-medium">
-          <Link href="#" className="hover:text-primary transition-colors">
+          <Link href="/whitepaper.pdf" className="hover:text-primary transition-colors">
             Whitepaper
           </Link>
-          <Link href="#" className="hover:text-primary transition-colors">
+          <Link href="https://x.com/petoverse_" className="hover:text-primary transition-colors">
             <Twitter size={20} className="inline-block mr-1" /> Twitter
           </Link>
-          <Link href="#" className="hover:text-primary transition-colors">
+          <Link href="https://t.me/@rythmern" className="hover:text-primary transition-colors">
             <Telegram size={20} className="inline-block mr-1" /> Telegram
           </Link>
-          <Link href="#" className="hover:text-primary transition-colors">
+          <Link href="/" className="hover:text-primary transition-colors">
             <BookOpen size={20} className="inline-block mr-1" /> Docs
           </Link>
-          <Link href="#" className="hover:text-primary transition-colors">
+          <Link href="mail::petoverse01@gmail.com" className="hover:text-primary transition-colors">
             Support
           </Link>
         </div>
