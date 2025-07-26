@@ -30,7 +30,7 @@ const SiteFooter: React.FC = () => {
         </motion.div>
 
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8 text-lg font-medium">
-          <Link href="/whitepaper.pdf" className="hover:text-primary transition-colors">
+          <Link href="https://github.com/rythmern02/Petoverse-web/blob/aab6927d8b49c861aa7027e4158b261b0556aef7/petoverse%20whitepaper-.pdf" className="hover:text-primary transition-colors">
             Whitepaper
           </Link>
           <Link href="https://x.com/petoverse_" className="hover:text-primary transition-colors">
