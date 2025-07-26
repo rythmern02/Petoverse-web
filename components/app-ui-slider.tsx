@@ -55,7 +55,7 @@ const AppUISlider: React.FC = () => {
     })
   }
 
-  const variants = {
+  const variants: any = {
     enter: (direction: number) => ({
       x: direction > 0 ? 1000 : -1000,
       opacity: 0,

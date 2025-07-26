@@ -30,7 +30,7 @@ const EcosystemSnapshot: React.FC = () => {
     },
   }
 
-  const nodeVariants = {
+  const nodeVariants: any = {
     hidden: { opacity: 0, scale: 0.8 },
     visible: { opacity: 1, scale: 1, transition: { type: "spring", stiffness: 100, damping: 10 } },
     hover: { scale: 1.1, boxShadow: "0 0 20px rgba(249, 115, 22, 0.7)", transition: { duration: 0.2 } },

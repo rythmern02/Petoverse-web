@@ -22,7 +22,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ text, className, delay = 0 
     }),
   }
 
-  const child = {
+  const child: any = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,

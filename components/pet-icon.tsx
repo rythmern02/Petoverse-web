@@ -24,7 +24,7 @@ const iconMap = {
 const PetIcon: React.FC<PetIconProps> = ({ type, size = 24, className, animate = true }) => {
   const IconComponent = iconMap[type]
 
-  const floatVariants = {
+  const floatVariants: any = {
     initial: { y: 0, x: 0 },
     animate: {
       y: [0, -10, 0],
@@ -38,7 +38,7 @@ const PetIcon: React.FC<PetIconProps> = ({ type, size = 24, className, animate =
     },
   }
 
-  const pulseVariants = {
+  const pulseVariants: any = {
     initial: { scale: 1, opacity: 1 },
     animate: {
       scale: [1, 1.05, 1],

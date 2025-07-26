@@ -22,7 +22,7 @@ const FeatureStep: React.FC<FeatureStepProps> = ({ icon: Icon, title, descriptio
     threshold: 0.3,
   })
 
-  const variants = {
+  const variants : any= {
     hidden: { opacity: 0, y: 50, scale: 0.95 },
     visible: {
       opacity: 1,
