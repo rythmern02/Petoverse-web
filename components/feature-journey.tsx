@@ -10,7 +10,7 @@ import { GlassmorphismCard } from "@/components/glassmorphism-card"
 import AnimatedText from "@/components/animated-text"
 
 interface FeatureStepProps {
-  icon: React.ElementType
+  icon: React.ComponentType<{ size?: number | string; className?: string }>
   title: string
   description: string
   delay?: number
