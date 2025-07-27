@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="200" height="200" alt="petoverse logo" src="https://github.com/user-attachments/assets/edce4c7f-86e2-4fca-9a0c-86fbb6e5d85f" />
+</div>
+
 # Petoverse
 
 **Your AI-Powered Digital Companion in the Web3 World**
@@ -52,7 +56,7 @@ The tokenomics are designed for long-term sustainability with a fair distributio
 
 ## Whitepaper
 
-A full technical and vision overview is available in the [Petoverse Whitepaper](./petoverse%20whitepaper_.pdf). It covers:
+A full technical and vision overview is available in the [Petoverse Whitepaper](./petoverse%20whitepaper-.pdf). It covers:
 - Pet architecture
 - Emotional modeling
 - Blockchain integration
@@ -67,9 +71,9 @@ To contribute, fork the repository, make your changes, and submit a pull request
 
 ## Contact
 
-- Email: team@petoverse.ai
-- Twitter: https://twitter.com/petoverse
-- Telegram: https://t.me/petoverseHQ
+- Email: petoverse01@gmail.com
+- Twitter: https://x.com/petoverse_
+- Telegram: https://t.me/rythmern
 
 ## License
 
