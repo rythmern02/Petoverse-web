@@ -52,7 +52,7 @@ The tokenomics are designed for long-term sustainability with a fair distributio
 
 ## Whitepaper
 
-A full technical and vision overview is available in the [Petoverse Whitepaper](./petoverse-whitepaper_.pdf). It covers:
+A full technical and vision overview is available in the [Petoverse Whitepaper](./petoverse%20whitepaper_.pdf). It covers:
 - Pet architecture
 - Emotional modeling
 - Blockchain integration
