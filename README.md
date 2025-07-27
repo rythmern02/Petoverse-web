@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Petoverse
 
-## Getting Started
+**Your AI-Powered Digital Companion in the Web3 World**
 
-First, run the development server:
+Petoverse is a next-generation mobile-first platform that brings emotionally intelligent, AI-powered pets to life on the Avalanche blockchain. These are not just static NFTs, but living, evolving digital companions designed to grow with their owners. Each pet has its own identity, memory, behavior, and even its own smart wallet.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Built on Avalanche for its speed, low fees, and modular subnets, Petoverse leverages the best of decentralized technology to deliver a rich, interactive ecosystem. At its core, Petoverse combines artificial intelligence, dynamic NFTs, decentralized finance, and player-driven governance into a single seamless experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Petoverse introduces dynamic AI companions that change based on your interactions. Each pet is fully unique, storing its mood, memory, and behavior on-chain. Pets can speak to you, react to your emotions, and evolve based on how you treat them.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+In addition to emotional engagement, every pet in Petoverse also has its own non-custodial wallet. You, the owner, can allow it to perform specific on-chain tasks, such as staking, swapping, and voting in governance proposals. These permissions are always under your control.
 
-## Learn More
+The Petoverse world includes a rich landscape of zones and environments where pets can explore, interact, complete missions, and participate in social events. As you build your bond with your pet, you unlock new ways to play, grow, and earn.
 
-To learn more about Next.js, take a look at the following resources:
+## Technology Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Petoverse is built using modern Web3 and mobile-native frameworks. The frontend uses React Native with TypeScript and Tailwind CSS, providing a responsive and expressive user experience. For animation and interactive effects, Framer Motion is used extensively throughout the UI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All blockchain interactions are deployed to the Avalanche C-Chain, using Solidity smart contracts with ERC-721A token standards for optimized NFT minting. The app architecture is modular and extensible, allowing for easy upgrades to smart contracts, pet logic, and world-building assets over time.
 
-## Deploy on Vercel
+Smart contracts are developed with security best practices using Hardhat and OpenZeppelin libraries. All logic related to pet evolution, DNA trait inheritance, and permission-based wallet behavior is implemented in a transparent and extensible way.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Smart Contract Overview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The Petoverse smart contracts are designed to support dynamic NFTs with mutable metadata, emotional state tracking, and behavior-based traits. The NFTs follow the ERC-721A standard, optimized for batch minting.
+
+Every pet is linked to a dedicated wallet contract that supports secure, permission-based asset management. Owners can enable their pets to perform specific financial operations like staking or governance voting, using a multi-sig or rule-based trigger system.
+
+Contracts are deployed to Avalanche’s C-Chain, chosen for its fast finality, low transaction costs, and high throughput, which is critical for AI-based interactions and real-time emotional updates.
+
+## Security and Permissions
+
+Petoverse emphasizes safety and transparency. All wallet features are opt-in. Pets cannot perform financial actions unless explicitly authorized by their owner. Optional multi-sig support ensures pets can't operate without human oversight if enabled.
+
+Smart contracts will undergo professional audits prior to mainnet release. Additionally, user data such as voice recognition or emotional feedback is never stored off-chain without permission, respecting both user privacy and decentralization principles.
+
+## Token Utility
+
+The platform is powered by the $PETO token. $PETO is used to mint pets, buy accessories, unlock zones, enter events, and participate in breeding or fusion. It also plays a central role in staking, voting, and accessing premium features.
+
+The tokenomics are designed for long-term sustainability with a fair distribution model and strong incentives for participation and governance. A portion of all in-game and marketplace transactions is directed to the community treasury, controlled by the DAO.
+
+## Roadmap
+
+- Q3 2025: Alpha Launch with 1,000 Genesis Pets, Wallets, and AI Voice
+- Q4 2025: Marketplace Launch, Habitat Builder, and Breeding Season 1
+- Q1 2026: Pet Clubs, PvP Battles, and Social Layer Integration
+- Q2 2026: Petoverse DAO Launch and Cross-Chain Portals
+- Q3–Q4 2026: Augmented Reality App, Real-World Toy Integration, Guild-Level Missions
+
+## Whitepaper
+
+A full technical and vision overview is available in the [Petoverse Whitepaper](./petoverse-whitepaper_.pdf). It covers:
+- Pet architecture
+- Emotional modeling
+- Blockchain integration
+- DAO structure
+- Token economy
+
+## Contributing
+
+We are always looking for contributors, designers, developers, and storytellers to join the Petoverse project. If you have ideas, feedback, or want to help build this world, we welcome your input.
+
+To contribute, fork the repository, make your changes, and submit a pull request. For feature requests or bugs, please open an issue.
+
+## Contact
+
+- Email: team@petoverse.ai
+- Twitter: https://twitter.com/petoverse
+- Telegram: https://t.me/petoverseHQ
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for full details.
+
+---
+
+Petoverse is not just a project. It’s a new kind of digital life—personal, autonomous, and truly yours.
